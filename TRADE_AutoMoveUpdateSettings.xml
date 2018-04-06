@@ -44,6 +44,9 @@
 				<Property name="Имя">
 					<MergeRule>DoNotMerge</MergeRule>
 				</Property>
+				<Property name="Версия">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
 				<Property name="АдресКаталогаОбновлений">
 					<MergeRule>DoNotMerge</MergeRule>
 				</Property>
