@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.3/config/merge/settings" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" platformVersion="8.3.8">
+	<MainConfiguration>
+		<Name>Конфигурация</Name>
+	</MainConfiguration>
+	<Parameters>
+		<ConfigurationsRelation>ConfigurationsNotRelated</ConfigurationsRelation>
+		<AllowMainConfigurationObjectDeletion>true</AllowMainConfigurationObjectDeletion>
+		<CopyObjectsMode>false</CopyObjectsMode>
+	</Parameters>
+	<SupportRules>
+		<NewObjects>
+			<ChangesAllowedRule>ObjectNotEditable</ChangesAllowedRule>
+			<ChangesNotRecommendedRule>ObjectNotEditable</ChangesNotRecommendedRule>
+		</NewObjects>
+		<DuplicateObjectsAndModifiedObjectsWithGetFromSecondConfigurationRule>
+			<ChangesAllowedRule>ObjectNotEditable</ChangesAllowedRule>
+			<ChangesNotRecommendedRule>ObjectNotEditable</ChangesNotRecommendedRule>
+		</DuplicateObjectsAndModifiedObjectsWithGetFromSecondConfigurationRule>
+		<ModifiedObjectsWithoutGetFromSecondConfigurationRule>
+			<ChangesAllowedRule>ObjectNotSupported</ChangesAllowedRule>
+			<ChangesNotRecommendedRule>KeepCurrentRule</ChangesNotRecommendedRule>
+		</ModifiedObjectsWithoutGetFromSecondConfigurationRule>
+	</SupportRules>
+	<Objects>
+		<Configuration>
+			<MergeRule>DoNotMerge</MergeRule>
+			<ObjectOrder>GetFromSecondConfiguration</ObjectOrder>
+			<Properties>
+				<Property name="Синоним">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="КраткаяИнформация">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="ПодробнаяИнформация">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="Заставка">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="Имя">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="ОсновныеРоли">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="Поставщик">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="Версия">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="АдресКаталогаОбновлений">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="МодульУправляемогоПриложения">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="МодульСеанса">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="МодульВнешнегоСоединения">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="МодульОбычногоПриложения">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="ИспользоватьУправляемыеФормыВОбычномПриложении">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="ИспользоватьОбычныеФормыВУправляемомПриложении">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="ХранилищеОбщихНастроек">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="ХранилищеПользовательскихНастроекОтчетов">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="ХранилищеВариантовОтчетов">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="ХранилищеНастроекДанныхФорм">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="ХранилищеПользовательскихНастроекДинамическихСписков">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="ОсновнаяФормаОтчета">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="ОсновнаяФормаВариантаОтчета">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="ОсновнаяФормаНастроекОтчета">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="ОсновнаяФормаНастроекДинамическогоСписка">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="ОсновнаяФормаПоиска">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="КомандныйИнтерфейс">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="РабочаяОбластьНачальнойСтраницы">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="КомандныйИнтерфейсОсновногоРаздела">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="КартинкаОсновногоРаздела">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="ОсновнойСтиль">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="ОсновнойЯзык">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="АвторскиеПрава">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="АдресИнформацииОПоставщике">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="АдресИнформацииОКонфигурации">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="ИнтерфейсКлиентскогоПриложения">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="РежимИспользованияМодальности">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="РежимИспользованияСинхронныхВызововРасширенийПлатформыИВнешнихКомпонент">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="РежимСовместимостиИнтерфейса">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="РежимСовместимости">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+				<Property name="РежимСовместимостиРасширенияКонфигурации">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>				
+			</Properties>
+		</Configuration>
+		<Object fullName="Язык.Русский">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Язык.Русский">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+			<ObjectOrder>GetFromMainConfiguration</ObjectOrder>
+		</Object>
+		<Object fullNameInSecondConfiguration="Язык.Украинский">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+			<ObjectOrder>GetFromMainConfiguration</ObjectOrder>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.ИнтеграцияС1СДокументооборотом">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+			<Subsystem configuration="Second" includeObjectsFromSubordinateSubsystems="true">
+		         <MergeRule>GetFromSecondConfiguration</MergeRule>
+		    </Subsystem>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.ИнтернетПоддержкаПользователей">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+			<Subsystem configuration="Second" includeObjectsFromSubordinateSubsystems="true">
+		         <MergeRule>GetFromSecondConfiguration</MergeRule>
+		    </Subsystem>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.ПодключаемоеОборудование">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+			<Subsystem configuration="Second" includeObjectsFromSubordinateSubsystems="true">
+		         <MergeRule>GetFromSecondConfiguration</MergeRule>
+		    </Subsystem>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.СлужебныеПодсистемы.Подсистема.ОбъектыУТКАУП">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+			<Subsystem configuration="Second" includeObjectsFromSubordinateSubsystems="true">
+		         <MergeRule>GetFromSecondConfiguration</MergeRule>
+		    </Subsystem>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.СлужебныеПодсистемы.Подсистема.ОбъектыУТКАУП_УКР">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+			<Subsystem configuration="Second" includeObjectsFromSubordinateSubsystems="true">
+		         <MergeRule>GetFromSecondConfiguration</MergeRule>
+		    </Subsystem>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.СлужебныеПодсистемы.Подсистема.ОбъектыКАУП">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.СлужебныеПодсистемы.Подсистема.ОбъектыУП">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.СтандартныеПодсистемы">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+			<Subsystem configuration="Second" includeObjectsFromSubordinateSubsystems="true">
+		         <MergeRule>GetFromSecondConfiguration</MergeRule>
+		    </Subsystem>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.ТехнологияСервиса">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+			<Subsystem configuration="Second" includeObjectsFromSubordinateSubsystems="true">
+		         <MergeRule>GetFromSecondConfiguration</MergeRule>
+		    </Subsystem>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.ЭлектронноеВзаимодействие">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+			<Subsystem configuration="Second" includeObjectsFromSubordinateSubsystems="true">
+		         <MergeRule>GetFromSecondConfiguration</MergeRule>
+		    </Subsystem>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.CRMИМаркетинг">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.АдминистрированиеСервиса">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.Администрирование">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.БанкИКассаБазовая">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.БюджетированиеИПланирование">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.БюджетированиеИПланирование.Подсистема.НСИБюджетирования">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.БюджетированиеИПланирование.Подсистема.Бюджеты">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.БюджетированиеИПланирование.Подсистема.БюджетныйПроцесс">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.Взаимодействия">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.Глоссарий">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.Закупки">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.ЗакупкиБазовая">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.Казначейство">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.МобильноеПриложениеМониторERP">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.НастройкиБазовая">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.ОрганизацияБазовая">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.ОтчетыБазовая">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.Продажи">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.ПродажиБазовая">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.СинхронизацияДанных">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.Склад">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.СкладБазовая">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.Тестирование">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.ФинансовыйРезультатИКонтроллинг">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+
+
+		<!-- Исключения физ.лиц для корректной синтаксис проверки. В УТ объекты полностью переписаны -->
+		<Object fullNameInSecondConfiguration="Справочник.ФизическиеЛица">
+			<Properties>
+				<Property name="ОсновнаяФормаОбъекта">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="ОсновнаяФормаСписка">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="ОсновнаяФормаДляВыбора">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="МодульОбъекта">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="МодульМенеджера">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+		<Object fullNameInSecondConfiguration="Справочник.ФизическиеЛица.Форма.ФормаЭлемента">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Справочник.ФизическиеЛица.Форма.ФормаЭлементаУП">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Справочник.ФизическиеЛица.Форма.ФормаСписка">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Справочник.ФизическиеЛица.Форма.ФормаВыбораУП">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Справочник.ФизическиеЛица.Форма.ФормаГруппы">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Справочник.ФизическиеЛица.Форма.ФормаВыбораСотрудников">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Справочник.ФизическиеЛица.Форма.ФормаВыбораПоРоли">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Справочник.ФизическиеЛица.Форма.ФормаНового">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Справочник.ФизическиеЛица.Форма.ФормаВыбораРолейФизическогоЛица">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+
+		<Object fullNameInSecondConfiguration="Справочник.ФизическиеЛица.Форма.ПроверкаУникальностиПоКодПоДРФО">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Справочник.ФизическиеЛица.Форма.ФизическиеЛицаСПохожимиДанными">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Справочник.ФизическиеЛица.Форма.ВоинскийУчет">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Справочник.ФизическиеЛица.Форма.Семья">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Справочник.ФизическиеЛица.Форма.ТрудоваяДеятельность">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Справочник.ФизическиеЛица.Форма.Работа">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Справочник.ФизическиеЛица.Форма.ОбразованиеКвалификация">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<!--
+		<Object fullNameInSecondConfiguration="РегистрСведений.ФИОФизическихЛиц">
+			<Properties>
+				<Property name="ОсновнаяФормаЗаписи">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="ОсновнаяФормаСписка">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="МодульНабораЗаписей">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="МодульМенеджера">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+		<Object fullNameInSecondConfiguration="РегистрСведений.ФИОФизическихЛиц.Форма.ФормаСписка">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="РегистрСведений.ФИОФизическихЛиц.Форма.ФормаЗаписи">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="РегистрСведений.ФИОФизическихЛиц.Форма.РедактированиеИстории">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		 -->
+	</Objects>
+</Settings>

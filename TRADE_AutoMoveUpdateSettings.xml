@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.3/config/merge/settings" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" platformVersion="8.3.8">
+	<MainConfiguration>
+		<Name>УправлениеТорговлейДляУкраины</Name>
+	</MainConfiguration>
+	<SecondConfiguration>
+		<Name>BASERP</Name>
+	</SecondConfiguration>
+	<SupportRules>
+		<NewObjects>
+			<ChangesAllowedRule>ObjectNotEditable</ChangesAllowedRule>
+			<ChangesNotRecommendedRule>ObjectNotEditable</ChangesNotRecommendedRule>
+		</NewObjects>
+		<DuplicateObjectsAndModifiedObjectsWithGetFromSecondConfigurationRule>
+			<ChangesAllowedRule>ObjectNotEditable</ChangesAllowedRule>
+			<ChangesNotRecommendedRule>ObjectNotEditable</ChangesNotRecommendedRule>
+		</DuplicateObjectsAndModifiedObjectsWithGetFromSecondConfigurationRule>
+		<ModifiedObjectsWithoutGetFromSecondConfigurationRule>
+			<ChangesAllowedRule>KeepCurrentRule</ChangesAllowedRule>
+			<ChangesNotRecommendedRule>KeepCurrentRule</ChangesNotRecommendedRule>
+		</ModifiedObjectsWithoutGetFromSecondConfigurationRule>
+	</SupportRules>
+	<Parameters>
+		<ConfigurationsRelation>MainConfigurationIsDescendantOfSecondConfiguration</ConfigurationsRelation>
+		<AllowMainConfigurationObjectDeletion>false</AllowMainConfigurationObjectDeletion>
+		<CopyObjectsMode>false</CopyObjectsMode>
+	</Parameters>
+	<Objects>
+		<Configuration>
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+			<Properties>
+				<Property name="Синоним">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="КраткаяИнформация">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="ПодробнаяИнформация">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="Заставка">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="Имя">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="АдресКаталогаОбновлений">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="АвторскиеПрава">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="АдресИнформацииОКонфигурации">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="РежимСовместимостиИнтерфейса">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="РежимСовместимостиРасширенияКонфигурации">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Configuration>
+		<Object fullNameInSecondConfiguration="Подсистема.СинхронизацияДанных">
+			<MergeRule>DoNotMerge</MergeRule>
+			<Subsystem configuration="Main" includeObjectsFromSubordinateSubsystems="true">
+		         <MergeRule>DoNotMerge</MergeRule>
+		    </Subsystem>
+		</Object>
+		<Object fullName="ОбщийМакет.ОписаниеИзмененийСистемы">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullName="Справочник.НаборыДополнительныхРеквизитовИСведений">
+			<Properties>
+				<Property name="Предопределенные">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+		<Object fullName="Справочник.ПрофилиГруппДоступа">
+			<Properties>
+				<Property name="Предопределенные">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+		<Object fullName="Справочник.ФизическиеЛица">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<!-- В УТ переименовываются роли физ.лиц (Тачеев) -->
+		<Object fullNameInSecondConfiguration="Роль.ДобавлениеИзменениеДанныхФизическихЛицЗарплатаКадры">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Роль.ЧтениеДанныхФизическихЛицЗарплатаКадры">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullName="Обработка.ИнформацияПриЗапуске.Макет.Описатель">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullName="ПланВидовХарактеристик.РазделыДатЗапретаИзменения">
+			<Properties>
+				<Property name="Предопределенные">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+		<!-- В УТ переименовывается "Бюджетирование и планирование" в "Планирование". Ошибка 00-00057554 -->
+		<Object fullNameInSecondConfiguration="Подсистема.БюджетированиеИПланирование">
+			<Properties>
+				<Property name="Синоним">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="Имя">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="Справка">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>				
+			</Properties>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.БюджетированиеИПланирование.Подсистема.ПланированиеЗапасов">
+			<Properties>
+				<Property name="Справка">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>				
+			</Properties>
+		</Object>
+		
+		<Object fullNameInSecondConfiguration="Обработка.ПанельАдминистрированияУТ.Форма.БюджетированиеИПланирование">
+			<Properties>
+				<Property name="Синоним">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="Имя">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+		<Object fullNameInSecondConfiguration="Обработка.ПанельСправочниковБюджетирования.Форма.ПанельСправочниковБюджетирования">
+			<Properties>
+				<Property name="Синоним">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="Имя">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+		<Object fullNameInSecondConfiguration="Обработка.ПанельАдминистрированияУТ.Команда.БюджетированиеИПланирование">
+			<Properties>
+				<Property name="Синоним">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="Имя">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+		<!-- В УТ переименовывается "Бюджетирование и планирование" в "Планирование". Ошибка 00-00058280 -->
+		<Object fullNameInSecondConfiguration="ОбщаяКоманда.ПанельОтчетовБюджетированиеИПланирование">
+			<Properties>
+				<Property name="Синоним">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="Имя">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+		<Object fullNameInSecondConfiguration="ОбщаяКоманда.ПанельОтчетовГлавноеБюджетированиеИПланирование">
+			<Properties>
+				<Property name="Синоним">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="Имя">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+		<Object fullName="ОбщийМодуль.УправлениеДоступомПереопределяемый">
+			<ObjectOrder>GetFromMainConfiguration</ObjectOrder>
+			<Properties>
+				<Property name="Модуль">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+					<Module>
+						<Methods>
+							<MainArea>
+								<MergeRule>GetFromSecondConfiguration</MergeRule>
+								<Patch/>
+							</MainArea>
+							<Method name="ПриЗаполненииВидовОграниченийПравОбъектовМетаданных">
+								<MergeRule>DoNotMerge</MergeRule>
+								<Patch/>
+							</Method>
+						</Methods>
+					</Module>
+				</Property>
+			</Properties>
+		</Object>
+	</Objects>
+</Settings>
