@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Settings xmlns="http://v8.1c.ru/8.3/config/merge/settings" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" platformVersion="8.3.8">
 	<MainConfiguration>
-		<Name>УправлениеТорговлейДляУкраины</Name>
+		<Name>BASУправлениеТорговлей</Name>
 	</MainConfiguration>
 	<SecondConfiguration>
 		<Name>BASERP</Name>
@@ -42,9 +42,6 @@
 					<MergeRule>DoNotMerge</MergeRule>
 				</Property>
 				<Property name="Имя">
-					<MergeRule>DoNotMerge</MergeRule>
-				</Property>
-				<Property name="Версия">
 					<MergeRule>DoNotMerge</MergeRule>
 				</Property>
 				<Property name="АдресКаталогаОбновлений">
@@ -90,14 +87,17 @@
 		<Object fullName="Справочник.ФизическиеЛица">
 			<MergeRule>DoNotMerge</MergeRule>
 		</Object>
+		<Object fullName="РегистрСведений.ФИОФизическихЛиц">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
 		<!-- В УТ переименовываются роли физ.лиц -->
 		<Object fullNameInSecondConfiguration="Роль.ДобавлениеИзменениеДанныхФизическихЛицЗарплатаКадры">
 			<MergeRule>DoNotMerge</MergeRule>
 		</Object>
-		<Object fullNameInSecondConfiguration="Роль.ЧтениеДанныхФизическихЛицЗарплатаКадры">
+<!--		<Object fullNameInSecondConfiguration="Роль.ЧтениеДанныхФизическихЛицЗарплатаКадры">
 			<MergeRule>DoNotMerge</MergeRule>
 		</Object>
-		<Object fullName="Обработка.ИнформацияПриЗапуске.Макет.Описатель">
+-->		<Object fullName="Обработка.ИнформацияПриЗапуске.Макет.Описатель">
 			<MergeRule>DoNotMerge</MergeRule>
 		</Object>
 		<Object fullName="ПланВидовХарактеристик.РазделыДатЗапретаИзменения">
