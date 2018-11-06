@@ -28,6 +28,7 @@
 	<Objects>
 		<Configuration>
 			<MergeRule>GetFromSecondConfiguration</MergeRule>
+			<ObjectOrder>GetFromMainConfiguration</ObjectOrder>
 			<Properties>
 				<Property name="Синоним">
 					<MergeRule>DoNotMerge</MergeRule>
