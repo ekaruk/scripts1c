@@ -287,7 +287,54 @@
 			<MergeRule>GetFromSecondConfiguration</MergeRule>
 		</Object>
 
-
+		<!-- Регламентированный учет -->
+		<Object fullNameInSecondConfiguration="Подсистема.РегламентированныйУчет">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+<!-- 		<Subsystem configuration="Second" includeObjectsFromSubordinateSubsystems="true">
+		         <MergeRule>DoNotMerge</MergeRule>
+		    </Subsystem>
+-->
+		</Object>
+<!--		<Object fullNameInSecondConfiguration="Подсистема.РегламентированныйУчет.Подсистема.Отчетность">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.РегламентированныйУчет.Подсистема.УчетЕдиногоНалога">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.РегламентированныйУчет.Подсистема.УчетАкцизногоНалога">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.РегламентированныйУчет.Подсистема.УчетНДСУкр">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+-->
+		<Object fullNameInSecondConfiguration="Подсистема.РегламентированныйУчет.Подсистема.НастройкиИСправочники">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.РегламентированныйУчет.Подсистема.БухгалтерскийИНалоговыйУчет">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.РегламентированныйУчет.Подсистема.ОсновныеСредства">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.РегламентированныйУчет.Подсистема.Лизинг">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.РегламентированныйУчет.Подсистема.НематериальныеАктивы">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.РегламентированныйУчет.Подсистема.СтандартныеОтчеты">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.РегламентированныйУчет.Подсистема.ОтражениеДокументов">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Подсистема.РегламентированныйУчет.Подсистема.КонтролируемыеОперации">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>		
+		
+		
+		
 		<!-- Исключения физ.лиц для корректной синтаксис проверки. В УТ объекты полностью переписаны -->
 		<Object fullNameInSecondConfiguration="Справочник.ФизическиеЛица">
 			<Properties>
